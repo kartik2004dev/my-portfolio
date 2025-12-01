@@ -343,7 +343,8 @@
                     <div class="flex items-center gap-4 mb-6">
                         <div
                             class="w-12 h-12 rounded-full bg-highlight/10 flex items-center justify-center group-hover:bg-highlight/20 transition-colors">
-                            <i class="fas fa-layer-group text-highlight text-xl"></i></div>
+                            <i class="fas fa-layer-group text-highlight text-xl"></i>
+                        </div>
                         <h3 class="text-xl font-bold">UI/UX Design</h3>
                     </div>
                     <div class="flex flex-wrap gap-3">
@@ -359,7 +360,8 @@
                     <div class="flex items-center gap-4 mb-6">
                         <div
                             class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                            <i class="fas fa-terminal text-accent text-xl"></i></div>
+                            <i class="fas fa-terminal text-accent text-xl"></i>
+                        </div>
                         <h3 class="text-xl font-bold">Security & Tech</h3>
                     </div>
                     <div class="flex flex-wrap gap-3">
@@ -384,7 +386,7 @@
                     <h2 class="text-3xl md:text-4xl font-bold mt-2">Selected Works</h2>
                 </div>
                 <p class="text-muted mt-4 md:mt-0 text-sm font-mono border border-white/10 px-3 py-1 rounded">Total
-                    Projects: 06</p>
+                    Projects: 11</p>
             </div>
 
             <!-- PROJECTS GRID -->
@@ -442,15 +444,23 @@
                     <h2 class="text-3xl md:text-4xl font-bold mt-2">Let's Secure Your Design</h2>
                     <p class="text-muted mt-4">Have a project in mind? Let's create something beautiful and safe.</p>
                 </div>
-                
+
                 <!-- IMPORTANT: Replace "YOUR_FORM_ID_HERE" with your actual Formspree ID -->
                 <form action="https://formspree.io/f/mjkqgelr" method="POST" class="space-y-6">
                     <div class="grid md:grid-cols-2 gap-6">
-                        <input type="text" name="name" required class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20" placeholder="Name">
-                        <input type="email" name="email" required class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20" placeholder="Email">
+                        <input type="text" name="name" required
+                            class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20"
+                            placeholder="Name">
+                        <input type="email" name="email" required
+                            class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20"
+                            placeholder="Email">
                     </div>
-                    <textarea name="message" rows="4" required class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20" placeholder="Your Message..."></textarea>
-                    <button type="submit" class="w-full py-4 bg-gradient-to-r from-accent to-highlight text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.4)] transition-all transform hover:-translate-y-1">Send Message</button>
+                    <textarea name="message" rows="4" required
+                        class="w-full bg-secondary border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-accent placeholder-white/20"
+                        placeholder="Your Message..."></textarea>
+                    <button type="submit"
+                        class="w-full py-4 bg-gradient-to-r from-accent to-highlight text-primary font-bold rounded-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.4)] transition-all transform hover:-translate-y-1">Send
+                        Message</button>
                 </form>
 
             </div>
@@ -503,7 +513,37 @@
                 category: "E-Commerce",
                 img: "img/Thumbnail (5).png",
                 desc: "A bold, high-contrast landing page concept for the Furniture. The design focuses on aesthetics with floating 3D elements to highlight the product's premium quality."
-            }
+            }, 
+            {
+                title: "Expat Therapy",
+                category: "Booking App",
+                img: "img/Thumbnail (6).png",
+                desc: "Therapy appointment booking app with therapist profiles, scheduling, and a calming UI."
+            }, 
+            {
+                title: "Plantify",
+                category: "E-Commerce",
+                img: "img/Thumbnail (7).jpg",
+                desc: "Modern plant shop e-commerce UI kit with clean layouts, components, and responsive screens."
+            }, 
+            {
+                title: "Pawly",
+                category: "Pet Care App",
+                img: "img/Thumbnail (8).png",
+                desc: "Pet health and nutrition tracking app with reminders, logs, and personalized tips."
+            }, 
+            {
+                title: "FreshDrop",
+                category: "Grocery Delivery App",
+                img: "img/Thumbnail (9).png",
+                desc: "Grocery shopping and delivery app featuring categories, cart, checkout, and tracking screens."
+            }, 
+            {
+                title: "Max Morgan",
+                category: "Photography Portfolio",
+                img: "img/Thumbnail (10).png",
+                desc: "Minimal dark-theme portfolio website focused on showcasing photography with a clean visual flow."
+            },
         ];
 
         // --- Render Projects Grid Dynamically ---
